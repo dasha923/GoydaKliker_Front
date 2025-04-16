@@ -1,0 +1,96 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: white; /* Весь текст белый */
+}
+
+/* Контейнер с градиентным фоном */
+.registration-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to top, #03045F, #90E0EE);
+}
+
+/* Форма регистрации */
+.registration-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.registration-form h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Группы полей формы */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    margin-left: 15px;
+    font-weight: medium;
+}
+
+/* Поля ввода */
+.form-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 30px; /* Закругление 30px */
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Кнопка регистрации */
+.register-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #0077B6;
+    color: white;
+    border: none;
+    border-radius: 30px; /* Закругление 30px */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.register-btn:hover {
+    background-color: #0096C7;
+}
+
+/* Ссылка на вход */
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #90E0EE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
